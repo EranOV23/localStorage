@@ -1,0 +1,53 @@
+.app {
+  font-family: sans-serif; }
+  .app main {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; }
+    .app main form {
+      display: flex;
+      flex-direction: column;
+      width: 30%; }
+      .app main form h2 {
+        align-self: center; }
+      .app main form input {
+        align-self: center;
+        border-radius: 5px;
+        background: lightgray;
+        height: 30px;
+        width: 200px;
+        border: none;
+        margin: 2px; }
+      .app main form button {
+        width: 100px;
+        height: 30px;
+        background: lightblue;
+        align-self: center;
+        border: none;
+        margin: 2px;
+        border-radius: 10px; }
+    .app main #userPage {
+      width: 30%;
+      background: lightgray;
+      border-radius: 15px;
+      font-family: sans-serif; }
+      .app main #userPage h2 {
+        text-align: center; }
+      .app main #userPage .Details h3 {
+        text-align: center; }
+      .app main #userPage .Details li {
+        list-style: none; }
+  .app .clear {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; }
+    .app .clear #clear {
+      width: 200px;
+      height: 40px;
+      background: lightblue;
+      align-self: center;
+      border: none;
+      margin-left: 0 auto;
+      border-radius: 15px; }
+
+/*# sourceMappingURL=storgae.css.map */
